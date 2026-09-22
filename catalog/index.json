@@ -323,7 +323,7 @@
       "description": "A minimal month-view calendar for keeping day-by-day notes.",
       "publisher": "tenltrs",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/com.tenltrs.dbx-calendar/0.1.3/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/com.tenltrs.dbx-calendar/0.1.5/icon.svg",
       "tags": [
         "calendar",
         "memo",
@@ -332,11 +332,39 @@
         "to-do"
       ],
       "permissions": [],
-      "source": "https://github.com/tenltrs/dbx-calendar/tree/v0.1.3",
+      "source": "https://github.com/tenltrs/dbx-calendar/tree/v0.1.5",
       "homepage": "https://github.com/tenltrs/dbx-calendar",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.3",
+      "latestVersion": "0.1.5",
       "versions": [
+        {
+          "version": "0.1.5",
+          "releasedAt": "2026-09-22T03:55:13.478Z",
+          "releaseNotes": "Month-view calendar with lunar dates, solar terms and statutory holiday markers. Notes are stored by the plugin's Go sidecar and can be exported to .xls or .txt and imported back.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.tenltrs.dbx-calendar/0.1.5/com.tenltrs.dbx-calendar-0.1.5-darwin-arm64.dbxp",
+              "sha256": "6fef855be29cd53c719f9b6019a7f9561efed2b417f5003693a8260c47c3f0de",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2056720
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/com.tenltrs.dbx-calendar/0.1.5/com.tenltrs.dbx-calendar-0.1.5-darwin-x64.dbxp",
+              "sha256": "0f41bf0facdf733d0afd25a6f6425b8cba8539ab7a26450bd28a8a02ee65f13f",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2127516
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/com.tenltrs.dbx-calendar/0.1.5/com.tenltrs.dbx-calendar-0.1.5-windows-x64.dbxp",
+              "sha256": "1d06ebb4cfd9f01f85a71b5a397fdb8928c3003adbc68470a46468a5c2e8df2c",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2334891
+            }
+          ]
+        },
         {
           "version": "0.1.3",
           "releasedAt": "2026-09-21T03:30:23.181Z",
@@ -957,7 +985,7 @@
       "description": "Manage Kubernetes clusters, workloads and resources from DBX.",
       "publisher": "eryajf",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.2/icon.png",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.3/icon.png",
       "tags": [
         "kubernetes",
         "containers",
@@ -969,8 +997,57 @@
       "source": "https://github.com/eryajf/dbx-plugin-k8s/tree/82240b2d6d32c8fb8890a2a0415630a466d0faef",
       "homepage": "https://github.com/eryajf/dbx-plugin-k8s",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.2",
+      "latestVersion": "0.1.3",
       "versions": [
+        {
+          "version": "0.1.3",
+          "releasedAt": "2026-09-22T03:45:15.895Z",
+          "releaseNotes": "",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.3/io.dbx.k8s-0.1.3-darwin-arm64.dbxp",
+              "sha256": "fe48157cc887e3136f60e16ae6d6fd224e7381a1f7d96c2faa3e35f779a59b7c",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 32031632
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.3/io.dbx.k8s-0.1.3-darwin-x64.dbxp",
+              "sha256": "4c18001b42711053371e92ddbf42414b6705ffdbbcd7a6139102754655311c7a",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 33589737
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.3/io.dbx.k8s-0.1.3-linux-arm64.dbxp",
+              "sha256": "a76fd8339df8dd4cd06b784d07be4a7c68520070aaaea4123eb16b82d6e53013",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 30202990
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.3/io.dbx.k8s-0.1.3-linux-x64.dbxp",
+              "sha256": "7debec44765a6ff93b6b1b8bdd0266568e17b993a5d0b75530f11dadbe299289",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 32232831
+            },
+            {
+              "target": "windows-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.3/io.dbx.k8s-0.1.3-windows-arm64.dbxp",
+              "sha256": "ae0ab3dae466fda33ffbd77ed5d9fc867199f6c0fd1cead07d414f156aff0199",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 30268862
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.3/io.dbx.k8s-0.1.3-windows-x64.dbxp",
+              "sha256": "01938fa3d62eae4ec5ebd885f5dc164db84a12622b203ac43a83c24e52d3b6ce",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 32534231
+            }
+          ]
+        },
         {
           "version": "0.1.2",
           "releasedAt": "2026-09-19T18:12:30.723Z",
@@ -4201,10 +4278,10 @@
     {
       "id": "terry.devtools",
       "name": "Dev Tools",
-      "description": "Sandboxed, offline, zero permissions — 40 tools at ~100KB: generators (password/QR/barcode/ID/RSA/TOTP/placeholder), codecs (Base64/Base58/URL/escape/punycode/data-URI), crypto (hash/HMAC/JWT/AES/certificate), text tools (JSON/diff/regex/lines/mojibake) and more.",
+      "description": "Sandboxed, fully offline, one minimal permission (local UI storage only) — smaller and safer. 40+ tools in ~120KB: password/QR/barcode/ID generators, hash & HMAC, AES encryption, JWT, TOTP, RSA keys, certificate decoder, Base64/32/58, timestamp/duration/cron, CIDR subnetting, text diff, color & contrast, regex tester, mojibake fixer and more.",
       "publisher": "terry",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/terry.devtools/0.5.2/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/terry.devtools/0.6.0/icon.svg",
       "tags": [
         "devtools",
         "utilities",
@@ -4217,12 +4294,28 @@
         "diff",
         "color"
       ],
-      "permissions": [],
+      "permissions": [
+        "host.storage"
+      ],
       "source": "https://github.com/yaoxinghuo/dbx-dev-tools",
       "homepage": "https://github.com/yaoxinghuo/dbx-dev-tools",
       "license": "MIT",
-      "latestVersion": "0.5.2",
+      "latestVersion": "0.6.0",
       "versions": [
+        {
+          "version": "0.6.0",
+          "releasedAt": "2026-09-22T03:49:26.779Z",
+          "releaseNotes": "Navigation overhaul: one Dev Tools workbench entry with an in-plugin sidebar — home, search with clear button, favorites, recently used and a collapsible all-tools group; the sidebar itself collapses to an icon rail. Favorites are pinned to a dedicated home section and reorderable by drag-and-drop in both places, with proper drag ghosts and grip affordances. Quick-fav stars on every tool row including search results, clear-recent action, and a hand-drawn lucide-style SVG icon set replacing emoji. Still ~120KB, fully offline.",
+          "artifacts": [
+            {
+              "target": "universal",
+              "url": "https://dl.dbxio.com/plugins/terry.devtools/0.6.0/terry.devtools-0.6.0-universal.dbxp",
+              "sha256": "c6d69bcc03638003d3de50a607793887fa72954fed79974899805f9c1bc4c8be",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 129974
+            }
+          ]
+        },
         {
           "version": "0.5.2",
           "releasedAt": "2026-09-21T04:44:44.781Z",
@@ -4282,8 +4375,8 @@
       ],
       "localizations": {
         "zh-CN": {
-          "name": "Dev Tools",
-          "description": "沙箱离线运行，零权限——40 个开发工具，约 100KB：生成器（密码/二维码/条码/ID/RSA 密钥/TOTP/占位图）、编解码（Base64/Base58/URL/转义/Punycode/Data URI）、安全（哈希/HMAC/JWT/AES/证书解析）、文本工具（JSON/对比/正则/行处理/乱码修复）等。"
+          "name": "Dev工具集",
+          "description": "沙箱离线运行，零联网、仅1项本地权限——更轻更安全。40+款开发工具仅 ~120KB：密码生成、哈希/HMAC、AES、JWT/TOTP、RSA/证书、多进制编解码、时间戳与 Cron、IP 子网、文本 Diff、颜色对比度、Unicode 检查、乱码修复、正则测试等一应俱全。"
         }
       }
     }
